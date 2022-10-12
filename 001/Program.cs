@@ -12,11 +12,6 @@ int columns = int.Parse(Console.ReadLine()!);
 int[,] Array = GetArray (rows, columns);
 PrintArray(Array);
 
-
-
-
-
-
 int [,] GetArray (int Stroki, int Stolb)
     {
         int [,] result = new int[Stroki, Stolb];
